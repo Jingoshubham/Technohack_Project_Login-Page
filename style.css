@@ -9,7 +9,7 @@ body {
     padding-top: 30px;
     padding-left: 50px;
     width: 300px;
-    height: 350px;
+    height: 360px;
     transition: 1s;
     margin: 15% auto;
     border-radius: 50px;
@@ -28,7 +28,8 @@ body {
 }
 
 .fa {
-    padding: 10px;
+    padding: 5px;
+    padding-top: 8px;
     font-size: 15px;
     width: 30px;
     height: 30px;
@@ -36,6 +37,7 @@ body {
     text-decoration: none;
     border-radius: 50%;
     margin-left: 5px;
+    
 
 }
 
@@ -71,11 +73,13 @@ body {
     color: aliceblue;
     text-align: center;
     padding-bottom: 3px;
+    margin-left: 10px;
 }
 
 .container-md button:hover {
     background-color: blueviolet;
     box-shadow: 5px 5px 5px 5px rgba(255, 255, 0, 0.372);
+    
 }
 
 .container-md button:active {
@@ -85,13 +89,33 @@ body {
 h3 {
     color: blue;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .container-md input {
     border: 2px solid black;
+    border-radius: 25px;
+    width: 200px;
+    padding-left: 8px;
+    background-color: antiquewhite;
+    
 }
 
 a {
     text-decoration: none;
     font-size: small;
+}
+.container-md input:hover{
+    border-color: chocolate;
+    font-size: large;
+
+}
+.signup{
+    margin-left:20px;
+}
+.container-md label:hover{
+    font-size: large;
+}
+a:hover{
+    font-size: large;
 }
